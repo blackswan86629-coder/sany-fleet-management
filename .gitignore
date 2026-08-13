@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+frontend/dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploads
+backend/uploads/
+
+# Logs
+*.log
