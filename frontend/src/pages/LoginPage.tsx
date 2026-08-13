@@ -46,7 +46,7 @@ export default function LoginPage() {
           boxShadow: '0 4px 24px rgba(227,25,55,0.15)',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
         }}>
-          <img src="/sany-logo.webp" alt="SANY" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+          <img src={import.meta.env.BASE_URL + "sany-logo.webp"} alt="SANY" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
         </div>
         <h1 style={{ fontSize: 24, fontWeight: 700, letterSpacing: '-0.02em', marginBottom: 4, color: '#f0f0f2' }}>SANY Auto-SaaS</h1>
         <p style={{ color: '#55555f', fontSize: 14, marginBottom: 40, letterSpacing: '0.04em', textTransform: 'uppercase' }}>Fleet Command Center</p>

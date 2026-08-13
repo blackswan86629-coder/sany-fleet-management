@@ -73,7 +73,7 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
             boxShadow: '0 2px 12px rgba(227,25,55,0.15)',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
           }}>
-            <img src="/sany-logo.webp" alt="SANY" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+            <img src={import.meta.env.BASE_URL + "sany-logo.webp"} alt="SANY" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
           </div>
           {!collapsed && (
             <div>

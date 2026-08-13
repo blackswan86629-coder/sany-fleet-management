@@ -36,7 +36,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         },
       }}
     >
-      <BrowserRouter>
+      <BrowserRouter basename="/sany-fleet-management">
         <App />
       </BrowserRouter>
     </ConfigProvider>
