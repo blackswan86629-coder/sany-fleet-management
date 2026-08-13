@@ -1,5 +1,5 @@
-import { Card, Row, Col, Select, Space, Empty, Tag } from 'antd';
-import { VideoCameraOutlined, PlayCircleOutlined, PauseCircleOutlined } from '@ant-design/icons';
+import { Card, Select, Space, Tag } from 'antd';
+import { VideoCameraOutlined, PauseCircleOutlined } from '@ant-design/icons';
 import { useState } from 'react';
 
 const DEMO_CAMERAS = [

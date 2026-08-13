@@ -3,18 +3,6 @@ import { Card, Tag, Space, Descriptions, Empty, Spin } from 'antd';
 import { vehicleApi } from '../api';
 
 // ─── Load AMap (Gaode) JS API ───
-function loadAMap(): Promise<any> {
-  return new Promise((resolve, reject) => {
-    if ((window as any).AMap) { resolve((window as any).AMap); return; }
-    const script = document.createElement('script');
-    // 使用免费的 Web API Key（开发测试用，正式环境换自己的）
-    script.src = 'https://webapi.amap.com/maps?v=2.0&key=your_amap_key_here';
-    script.onload = () => resolve((window as any).AMap);
-    script.onerror = reject;
-    document.head.appendChild(script);
-  });
-}
-
 // ─── Fallback: OpenStreetMap + Leaflet (免费，无需Key) ───
 function loadLeaflet(): Promise<any> {
   return new Promise((resolve, reject) => {
@@ -40,7 +28,6 @@ export default function MapPage() {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
   const markersRef = useRef<any[]>([]);
-  const popupRef = useRef<any>(null);
 
   const fetchVehicles = useCallback(async () => {
     try {

@@ -1,5 +1,5 @@
 import { Card, Row, Col, Table, Select, Space, Button, DatePicker, Statistic } from 'antd';
-import { DownloadOutlined, BarChartOutlined, FileExcelOutlined, FilePdfOutlined } from '@ant-design/icons';
+import { FileExcelOutlined, FilePdfOutlined } from '@ant-design/icons';
 import { useState } from 'react';
 
 const REPORT_TYPES = [

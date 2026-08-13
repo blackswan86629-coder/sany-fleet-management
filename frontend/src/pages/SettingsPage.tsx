@@ -1,4 +1,4 @@
-import { Card, Form, Input, Switch, Select, Button, Divider, Row, Col, message, Tabs } from 'antd';
+import { Card, Form, Input, Switch, Select, Button, Row, Col, message, Tabs } from 'antd';
 import { SaveOutlined } from '@ant-design/icons';
 
 export default function SettingsPage() {
