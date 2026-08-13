@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef, useCallback } from 'react';
-import { Card, Tag, Space, Descriptions, Empty, Spin } from 'antd';
+import { Card, Tag, Descriptions, Empty } from 'antd';
 import { vehicleApi } from '../api';
 
 // ─── Load AMap (Gaode) JS API ───

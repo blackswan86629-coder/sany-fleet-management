@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Row, Col, Card, Progress, List, Badge, Tag, Space, Button } from 'antd';
 import {
   CarOutlined, AlertOutlined, ThunderboltOutlined, DashboardOutlined,
-  ArrowUpOutlined, EnvironmentOutlined,
+  ArrowUpOutlined,
 } from '@ant-design/icons';
 import { dashboardApi, alertApi, vehicleApi } from '../api';
 

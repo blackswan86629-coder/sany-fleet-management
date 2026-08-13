@@ -1,5 +1,5 @@
-import { Card, Row, Col, Progress, List, Tag, Space, Statistic } from 'antd';
-import { DropboxOutlined, ArrowUpOutlined, ArrowDownOutlined, WarningOutlined } from '@ant-design/icons';
+import { Card, Row, Col, Progress, List, Tag, Space } from 'antd';
+import { DropboxOutlined, ArrowDownOutlined, WarningOutlined } from '@ant-design/icons';
 import { useEffect, useState } from 'react';
 import { vehicleApi } from '../api';
 
